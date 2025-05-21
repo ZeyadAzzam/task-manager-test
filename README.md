@@ -1,5 +1,7 @@
 # Task Manager API Powered by Zeyad
 
+![Alt text](https://i.ibb.co/ZzMX7sRc/Screenshot-from-2025-05-21-16-02-32.png)
+
 ## Tech Stack
 
 - Node.js
@@ -7,6 +9,8 @@
 - Prisma O
 - MySQL
 - Joi for validation
+- bcrypt for password encryption
+- Swagger for API documentation
 
 ## Setup
 
@@ -18,10 +22,10 @@
 npm install
 ```
 
-3. Push schema:
+3. Database Migrate:
 
 ```bash
-npx prisma db push
+npx prisma migrate dev --name init
 ```
 
 4. Start server:

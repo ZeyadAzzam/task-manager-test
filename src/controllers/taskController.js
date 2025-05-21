@@ -10,7 +10,7 @@ exports.createTask = async (req, res) => {
     const user = await prisma.user.findUnique({ where: { id: value.user_id } });
 
     console.log(
-      `Notification sent to user ${user.email} for this new  task: ${value.title}`
+      `Notification sent to user ${user.email} for this new  task: ${value.title} Powered By Zuck`
     );
 
     res.status(201).json(task);

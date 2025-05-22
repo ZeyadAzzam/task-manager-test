@@ -41,6 +41,8 @@ npm start
 - GET `/tasks/user/:id` - Get user's tasks
 - PATCH `/tasks/:id` - Update task status
 
-## Swagger
+## Swagger:
 
-- `http://localhost:3000/api-docs`
+ ```bash
+http://localhost:3000/api-docs
+```

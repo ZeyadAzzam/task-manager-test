@@ -40,3 +40,7 @@ npm start
 - POST `/tasks` - Create task
 - GET `/tasks/user/:id` - Get user's tasks
 - PATCH `/tasks/:id` - Update task status
+
+## Swagger
+
+- `http://localhost:3000/api-docs`
